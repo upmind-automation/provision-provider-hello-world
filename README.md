@@ -70,7 +70,7 @@ The following providers are currently implemented:
 
 ## Functions
 
-### create()
+### greeting()
 
 Greet a person by name.
 
