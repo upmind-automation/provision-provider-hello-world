@@ -14,7 +14,8 @@
         }
     },
     "require": {
-        "upmind/provision-provider-base": "^3.0"
+        "php": "7.4 - 8.3",
+        "upmind/provision-provider-base": "^3.0 || ^4.0"
     },
     "extra": {
         "laravel": {
@@ -22,6 +23,9 @@
                 "Upmind\\ProvisionExample\\Category\\HelloWorld\\Laravel\\ServiceProvider"
             ]
         }
+    },
+    "config": {
+        "sort-packages": true
     },
     "minimum-stability": "dev",
     "prefer-stable": true
